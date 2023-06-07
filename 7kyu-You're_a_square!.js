@@ -26,3 +26,7 @@ var isSquare = function(n){
     let raiz = Math.sqrt(n);
     return Number.isInteger(sqrt);
   };
+
+//Otra
+const isSquare = n => Number.isInteger(Math.sqrt(n));
+//Cando usamos o metodo =>, non fai falta usar nin {} nin return, ambos poden omitirse.
